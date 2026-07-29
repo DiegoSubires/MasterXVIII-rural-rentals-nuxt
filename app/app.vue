@@ -1,0 +1,6 @@
+<!-- app.vue -->
+<template>
+  <div class="min-h-screen bg-slate-50 text-slate-800 antialiased">
+    <NuxtPage />
+  </div>
+</template>
