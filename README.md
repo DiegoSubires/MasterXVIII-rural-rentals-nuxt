@@ -19,3 +19,19 @@ TypeScript: Tipado estricto de componentes e interfaces de datos.
 Rutas y Parámetros: Reactividad mediante useRoute(), useRouter() y sincronización de query params en la URL para filtros de búsqueda.
 
 Formulario Interactivo: Cálculo automático de noches, desglose de precios y confirmación de reserva.
+
+## 🚀 Ejecución en Local
+
+El proyecto cuenta con sus propios **Server Routes** integrados mediante el motor Nitro de Nuxt 3 para simular los endpoints requeridos (`/api/houses`), actuando como una aplicación Full-Stack autónoma.
+
+1. **Copiar variables de entorno:**
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+2. **Instalar e iniciar:**
+   ```Bash
+   npm install
+   npm run dev
+   ```
